@@ -9,10 +9,6 @@ import SwiftUI
 
 @main
 struct TestApp: App {
-    init(){
-        _ = LocationDataManager()
-    }
-    
     var body: some Scene {
         WindowGroup {
             ContentView()

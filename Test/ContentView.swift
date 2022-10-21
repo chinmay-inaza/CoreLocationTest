@@ -62,6 +62,7 @@ struct ContentView: View {
         VStack {
             Button("Track") {
                 print("HI")
+                _ = LocationDataManager()
             }
         }
         .padding()
